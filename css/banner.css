@@ -1,0 +1,121 @@
+.banner {
+  height: 460px;
+  position: relative;
+}
+
+.banner .banner-cover img {
+  width: 1226px;
+}
+
+.banner .banner-points {
+  /* 箭头统一样式 */
+  width: 40px;
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  color: #b8c3cb;
+  text-align: center;
+  line-height: 70px;
+  cursor: pointer;
+}
+.banner .banner-points:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.banner .banner-bullet .iconfont {
+  font-size: 30px;
+}
+
+.banner .banner-points-left {
+  left: 234px;
+}
+.banner .banner-points-right {
+  right: 0;
+}
+
+.banner .banner-bullet {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.banner .banner-bullet span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 2255, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.banner .banner-bullet .banner-bullet-show {
+  background-color: rgba(255, 255, 2255, 0.3);
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+/* 横幅-菜单 */
+.banner .banner-menu {
+  position: absolute;
+  width: 234px;
+  height: 100%;
+  background-color: rgba(105, 101, 101, 0.6);
+  top: 0;
+  left: 0;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.banner .banner-menu .banner-menu-item {
+  padding-left: 30px;
+  padding-right: 20px;
+  height: 42px;
+  line-height: 42px;
+}
+
+.banner .banner-submenu-menu {
+  position: absolute;
+  top: 0;
+  left: 234px;
+  background-color: #fff;
+  width: 992px;
+  height: 100%;
+  color: #333;
+}
+
+.banner .banner-submenu-menu a {
+  padding: 0 20px;
+  width: 25%;
+  height: 16.666%;
+}
+
+.banner .banner-submenu-menu a img {
+  width: 40px;
+  height: 40px;
+  margin-top: 17px;
+  margin-right: 12px;
+}
+
+.banner .banner-submenu-menu a .text {
+  margin-top: 15px;
+  width: 154px;
+  /* 文字过长显示小点 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.banner .banner-submenu-menu {
+  display: none;
+}
+
+.banner .banner-menu .banner-menu-item:hover {
+  color: #fff;
+  background-color: #ff6700;
+}
+
+.banner .banner-menu .banner-menu-item:hover .banner-submenu-menu {
+  display: block;
+}

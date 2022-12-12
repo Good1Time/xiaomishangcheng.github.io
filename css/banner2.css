@@ -1,0 +1,77 @@
+.banner2 {
+  margin-top: 14px;
+  margin-bottom: 26px;
+}
+
+.banner2-serve {
+  width: 234px;
+  height: 170px;
+  margin-right: 14px;
+  padding: 3px;
+  background-color: #5f5750;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.banner2-serve .banner2-serve-item {
+  position: relative;
+  width: 76px;
+  height: 82px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.banner2-serve .banner2-serve-item::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 70px;
+  background-color: #665e57;
+  top: 6px;
+  left: 0;
+}
+
+.banner2-serve .banner2-serve-item:nth-child(3n + 1)::before {
+  content: none;
+}
+
+.banner2-serve .banner2-serve-item::after {
+  position: absolute;
+  content: "";
+  width: 64px;
+  height: 1px;
+  background-color: #665e57;
+  bottom: 0;
+  left: 6px;
+}
+
+.banner2-serve .banner2-serve-item:nth-child(n + 4):after {
+  content: none;
+}
+
+.banner2-serve .banner2-serve-item:hover {
+  color: #fff;
+}
+
+.banner2-serve .banner2-serve-item .iconfont {
+  font-size: 26px;
+}
+
+.banner2-serve .banner2-serve-item span {
+  display: block;
+}
+
+.banner2-poster {
+  margin-right: 15px;
+}
+
+.banner2-poster:last-child {
+  margin-right: 0;
+}
+
+.banner2-poster img {
+  /* 清除了图片底部白边 */
+  display: block;
+  width: 316px;
+  height: 170px;
+}
